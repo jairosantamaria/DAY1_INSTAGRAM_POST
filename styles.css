@@ -1,14 +1,10 @@
-* {
-    border: 1px dashed red;
-    min-height: 10px;
-}
 body {
 	background: rgb(196, 190, 190);
 }
 .main-div {
 	background: white;
-	width: 500px;
-	height: 800px;
+	width: 450px;
+	height: 500px;
 	margin: auto;
    
 }
@@ -16,20 +12,23 @@ img {
     max-width: 500px;
     background-color: rgb(251, 255, 6);
 }
+.header{
+    display: flex;
+    height: 60px;
+}
 .header-middle{
-    height: 80px;
-    width: 80px;
-    background-color: aqua;
+     margin-top: 0px;
+    height: 60px;
+   max-width:80px;
 }
 .header-right{
-    height: 80px;
-    width: 100px;
-    background-color: rgb(163, 194, 53);
+    height: 60px;
+    width: 370px;
+       
 }
 .header-left{
-    height: 80px;
+    height: 60px;
     width: 50px;
-    background-color: rgb(102, 107, 107);
 }
 .body{
     height: 300px;
